@@ -1,8 +1,14 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
-const inter = Inter ({ subsets: ['latin']})
+import 'bootstrap/dist/css/bootstrap.css';
+
+import type { Metadata } from "next";
+import { EB_Garamond } from "next/font/google";
+import "./globals.css";
+import "./variables.css";
+import Header from "@/components/Header";
+
+const inter = EB_Garamond ({ subsets: ['latin']})
 
 export const metadata: Metadata = {
   title: "Music Web App",
@@ -17,6 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        <Header />
         {children}
       </body>
     </html>
