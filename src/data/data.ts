@@ -109,8 +109,6 @@ export async function getDataArtist() {
     } catch (error) {
         console.error("Error fetching album data:", error);
     }
-
-    return [];
 }
 
 export async function getImage() {
