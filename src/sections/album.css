@@ -1,0 +1,50 @@
+.container-album {
+    padding: 0;
+    position: relative;
+    margin: 0;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header-album {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 2px;
+    padding: 10px 20px;
+  }
+  
+  .header h1 {
+    margin: 0; 
+    font-size: 30px;
+    color: #8d260f;
+  }
+  
+  .button {
+    padding: 10px 20px; 
+    background: none; 
+    color: #333; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 16px; 
+    text-decoration: none; 
+    transition: color 0.3s; 
+    font-size: 25px;
+  }
+  
+  .button:hover {
+    color: #555; 
+  }
+  
+  .albumGrid {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    padding: 10px;
+    flex-wrap: wrap; 
+    background: #EEEEEE;
+    border-radius: 20px;
+    flex: 1;
+  }

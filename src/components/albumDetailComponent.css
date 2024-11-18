@@ -1,0 +1,73 @@
+.cardContainer-album {
+    display: flex; 
+    gap: 15px; 
+}
+
+.squareCard-album {
+    width: 470px; 
+    height: 600px; 
+    background-image: linear-gradient(to right, #200d13 0%, #8d260f 100%);
+    color: white; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    border-radius: 20px; 
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2); 
+    flex: 1;
+}
+
+.squareCard-album .card-img {
+    width: 60%;
+    height: 70%;
+    border-radius: 10px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: #200d13;
+    border-style: solid;
+}
+
+.rectangleCard-album {
+    height: 600px; 
+    background-color: #200d13;
+    color: white; 
+    align-items: center; 
+    display: flex;
+    border-radius: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    padding: 40px;
+    flex: 1;
+    position: relative;
+    overflow-y: auto;
+}
+
+.rectangleCard-album .font-card-album{ 
+    display: flex;
+    flex-direction: column;
+    font-size: medium;
+}
+
+.font-card-album h4{
+    margin-top: 50px;
+    font-weight: bolder;
+}
+
+.font-card-album span{
+    font-weight: lighter;
+}
+
+.detail-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto); 
+    gap: 50px; 
+}
+
+.detail-grid h4 {
+    margin: 0;
+    font-weight: bolder;
+}
+
+.detail-grid span{
+    font-weight: lighter;
+}
+  
