@@ -1,0 +1,31 @@
+.card {
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+    transition: transform 0.2s;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    border: none;
+    background: #EEEEEE;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .image {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    border-style: solid;
+    border-color: white;
+  }
+  
+  .imageName {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+  }

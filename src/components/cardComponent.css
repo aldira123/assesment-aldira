@@ -1,0 +1,87 @@
+
+.cardContainer {
+    display: flex; 
+    gap: 30px; 
+}
+
+.squareCard {
+    width: 600px; 
+    height: 600px; 
+    background-image: linear-gradient(to right, #200d13 0%, #8d260f 100%);
+    color: white; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    border-radius: 10px; 
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.rectangleCard {
+    height: 600px; 
+    background-image: linear-gradient(to right, #8d260f 20%, #200d13 80%);
+    color: white; 
+    align-items: center; 
+    display: flex;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    padding: 30px;
+    flex: 1;
+    position: relative;
+}
+
+.squareCard .card-img {
+    width: 375px;
+    height: 375px;
+    border-radius: 10px; 
+}
+
+.card-img-bio{
+    width: 50%; 
+    height: 100%;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    bottom: 10%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    transition: opacity 0.3s;
+    opacity: 0;
+    flex-direction: column;
+    font-size: large;
+    margin: 10px;
+    padding: 20px;
+}
+
+.rectangleCard:hover .overlay {
+    opacity: 1;
+}
+
+.rectangleCard .font-card{
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+}
+
+.listen-button {
+    background-color: #0f0c0c; 
+    color: #8d260f; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px;
+    cursor: pointer; 
+    font-size: 25px; 
+    transition: background-color 0.3s; 
+}
+
+.listen-button:hover {
+    background-color:#070606; 
+}
